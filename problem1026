@@ -1,0 +1,7 @@
+while True:
+    try:
+        entrada = input()
+    except EOFError:
+       break
+    nums = entrada.split(" ")
+    print(int(nums[0])^int(nums[1]))
